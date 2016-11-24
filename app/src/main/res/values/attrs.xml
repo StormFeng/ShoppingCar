@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="color_tick" format="color"/>
+        <attr name="color_checked" format="color"/>
+        <attr name="color_unchecked" format="color"/>
+        <attr name="color_unchecked_stroke" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="GradientTabStrip">
+        <attr name="gtsTextSize" format="dimension"/>
+        <attr name="gtsTextColor" format="color"/>
+        <attr name="gtsDrawablePadding" format="dimension"/>
+        <attr name="gtsBackground" format="reference"/>
+        <attr name="gtsInterval" format="reference" />
+        <attr name="gtsMinItemWidth" format="dimension"/>
+        <attr name="gtsTagTextSize" format="dimension" />
+        <attr name="gtsTagTextColor" format="color" />
+        <attr name="gtsTagBackground" format="reference" />
+        <attr name="gtsTagPadding" format="dimension" />
+        <attr name="gtsTagPaddingLeft" format="dimension" />
+        <attr name="gtsTagPaddingTop" format="dimension" />
+        <attr name="gtsTagPaddingRight" format="dimension" />
+        <attr name="gtsTagPaddingBottom" format="dimension" />
+        <attr name="gtsTagMargin" format="dimension" />
+        <attr name="gtsTagMarginLeft" format="dimension" />
+        <attr name="gtsTagMarginTop" format="dimension" />
+        <attr name="gtsTagMarginRight" format="dimension" />
+        <attr name="gtsTagMarginBottom" format="dimension" />
+        <attr name="gtsTagMinSizeMode" format="enum">
+            <enum name="OnlyHasText" value="0" />
+            <enum name="Always" value="1" />
+        </attr>
+        <attr name="gtsTagMinWidth" format="dimension" />
+        <attr name="gtsTagMinHeight" format="dimension" />
+        <attr name="gtsCenterGap" format="dimension"/>
+    </declare-styleable>
+
+</resources>
